@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: 'Roboto';
+}
+h5{
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+.card-body{
+    font-weight: 300;
+}
+.card{
+    margin: 0.5rem 0;
+}
+footer{
+    background-color: #198754;
+}
+footer p{
+    color: #F8F9FA;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1.5em;
+}
+.form{
+    padding-bottom: 0.5em;
+}
+footer button{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 0.5em;
+}
+.form-control{
+    margin-bottom: 1em;
+}
+.footerfooter{
+    padding-top: 1.5em;
+    background-color: #F8F9FA;
+    text-align: center;
+    margin: 0;
+}
+.footerfooter p{
+    font-weight: 300;
+    color: #212529;
+}
+.list-group-item{
+    text-align: end;
+    font-weight: 300;
+}
+.list-group-item p{
+    display: inline-block;
+    text-align: end;
+    color: #707070;
+    margin-left: 1em;
+}
+#greenpricetag{
+    color: #198754;
+    font-weight: 500;
+    font-size: large;
+}

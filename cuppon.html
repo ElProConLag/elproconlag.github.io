@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!--Bootstrap CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"><!--Google Fonts-->
+    <script src="https://kit.fontawesome.com/c0df76a2b6.js" crossorigin="anonymous"></script><!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/css/cuppon-style.css">
+    <link rel="shortcut icon" href="./assets/img/cuppon-favicon.png" type="image/png">
+    <title>Viajes de TravelCompara</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1"><i class="fa-solid fa-store"></i> TravelCompara</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Viajes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experiencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Hoteles (pronto)</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Redes sociales
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.vimeo.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-vimeo-v"></i> Vimeo</a></li>
+                  <li><a class="dropdown-item" href="https://mastodon.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-mastodon"></i> Mastodon</a></li>
+                  <li><a class="dropdown-item" href="https://www.reddit.com/r/all" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-reddit-alien"></i> Reddit</a></li>
+                  <li><a class="dropdown-item" href="https://web.telegram.org/z" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-leaf"></i> Neutro en carbono
+                    </div>
+                    <div class="card-body">
+                        <img src="./assets/img/vinadelmar.jpg" class="card-img-top" alt="Ciudad y playa de Viña"><!--CC BY-NC-SA Flickr-->
+                        <h5><i class="fa-solid fa-map-marker-alt"></i> Valparaíso y Viña del Mar</h5>
+                        <p>Viaje asequible en bus eléctrico, cupos limitados en verano.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>$45.000</p>
+                            <p id="greenpricetag">$30.000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-plane"></i> Sin escalas
+                    </div>
+                    <div class="card-body">
+                        <img src="./assets/img/humberstone.jpg" class="card-img-top" alt="Salitrera de Humberstone"><!--CC BY-SA Wikimedia-->
+                        <h5><i class="fa-solid fa-map-marker-alt"></i> Arica</h5>
+                        <p>Vuelo directo con traslado al aeropuerto incluido, solo de ida.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>$150.000</p>
+                            <p id="greenpricetag">$80.000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-passport"></i> Requiere pasaporte sanitario
+                    </div>
+                    <div class="card-body">
+                        <img src="./assets/img/copenhagen.jpg" class="card-img-top" alt="Primavera en Copenhagen"><!--CC BY Flickr-->
+                        <h5><i class="fa-solid fa-map-marker-alt"></i> Dinamarca</h5>
+                        <p>Disfruta de Copenhagen y varias ubicaciones de ensueño.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>$500.000</p>
+                            <p id="greenpricetag">$450.000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-check-to-slot"></i> Sin trámites extra
+                    </div>
+                    <div class="card-body">
+                        <img src="./assets/img/moais.jpg" class="card-img-top" alt="Moáis en Isla de Pascua"><!--CC BY-NC-SA Flickr-->
+                        <h5><i class="fa-solid fa-map-marker-alt"></i> Isla de Pascua (Rapa Nui)</h5>
+                        <p>Visita este territorio en medio del océano Pacífico, con FUI autocompletado.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>$240.000</p>
+                            <p id="greenpricetag">$230.000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-shuttle-space"></i> Turismo espacial
+                    </div>
+                    <div class="card-body">
+                        <img src="./assets/img/moon.jpg" class="card-img-top" alt="Luna blanca"><!--CC BY Flickr-->
+                        <h5><i class="fa-solid fa-map-marker-alt"></i> Luna</h5>
+                        <p>Órbita alrededor de nuestro satélite, y recoge 1,257 mg de roca lunar.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>$3.500.000</p>
+                            <p id="greenpricetag">$3.100.000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-vr-cardboard"></i> Meta-free
+                    </div>
+                    <div class="card-body">
+                        <img src="./assets/img/vr.jpg" class="card-img-top" alt="Configuración de espacio virtual"><!--CC BY-SA Flickr-->
+                        <h5><i class="fa-solid fa-map-marker-alt"></i> Acceso a Verzo</h5>
+                        <p>Muévete a través de la realidad virtual y aumentada desde este entorno base.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>$400.000</p>
+                            <p id="greenpricetag">$370.000</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Recibe cupones en tu correo</p>
+        <section class="form-section-container bg-success text-light p-3">
+            <input class="form-control" type="text" placeholder="Nombre">
+            <input class="form-control" type="email" placeholder="Correo Electrónico">
+            <div class="d-flex-justify-content-center">
+                <button type="submit" class="btn btn-light">Enviar</button>
+            </div>
+        </section>
+        <section class="footerfooter">
+            <h2><i class="fa-solid fa-store"></i> TravelCompara</h2>
+            <p>De Camilo Pinto, maqueta de ADL. Imágenes con licencia CC.</p>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><!--Bootstrap JS-->
+</body>
+</html>
