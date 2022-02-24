@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+h1{
+    margin: 0.2em 0 0.2em 0;
+}
+header img{
+    width: 100%;
+}
+main .description{/*Todavía no puedo cambiar la fuente a light*/
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    position: center;
+}
+main p{
+    text-align: inherit;
+    vertical-align: middle;
+    margin: 10% 0;
+}
+main img{
+    width: 49%;
+    display: inline-block;
+}
+.features{
+    background-color: #2b2720;
+}
+.features h2{
+    background-color: #2b2720;
+    display: block;
+    padding: 1.5em 0 0.5em 0;
+}
+i{
+    background-color: #2b2720;
+    padding-bottom: 0.2em;
+}
+.icon-text{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 1em 0;
+    background-color: #2b2720;
+}
+.icon-text p{
+    background-color: #2b2720;
+}
+footer p{
+    width: 100%;
+    background-color: #2b2720;
+    display: block;
+}
+/*Parece que coloqué muchos #2b2720 en esta hoja./*
